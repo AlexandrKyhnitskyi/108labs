@@ -1,0 +1,100 @@
+@import "service/templates.less"; // Import prepared less-templates
+
+// Стилі сторінки перегляду роботи із портфоліо
+
+.site-info {
+  margin: 30px 0 0;
+
+  h1 {
+    margin: 5px 0 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.1;
+  }
+  span {
+    font-weight: bold;
+    line-height: 30px;
+  }
+
+  p {
+    margin: 20px 0;
+    line-height: 28px;
+
+    span {
+      line-height: 28px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.slider {
+  margin: 50px 0;
+  padding: 0;
+
+  .parent {
+    text-align: center;
+
+    ul {
+      width: 100%;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline-block;
+        width: 23%;
+        height: 200px;
+        margin-right: 2%;
+        overflow: hidden;
+
+        &:first-child,&:last-child {
+          position: relative;
+          width: 10%;
+          opacity: 0.8;
+
+          &:hover {
+            opacity: 0.7;
+          }
+
+          a {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
+          }
+        }
+
+        &:first-child {
+          background: #000 url("/img/folio-arrow-left.png") center center no-repeat;
+          background-size: 80%;
+        }
+
+        &:last-child {
+          margin: 0;
+          background: #000 url("/img/folio-arrow-right.png") center center no-repeat;
+          background-size: 80%;
+        }
+
+        &.active {
+          border: 2px solid @color_333;
+        }
+
+        a {
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

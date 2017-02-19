@@ -1,0 +1,46 @@
+//===============================Variables=======================================
+
+@color_333: #333;
+
+//============================= prepared templates =============================
+
+._lin_grad (@background-color, @start, @start-color, @end-color) {
+    background-color: @background-color;
+    background: -webkit-linear-gradient(@start, @start-color, @end-color); // Safari, Chrome
+    background: -moz-linear-gradient(@start,  @start-color, @end-color); // Firefox 3.6+
+    background: -o-linear-gradient(@start,  @start-color, @end-color); // Opera 11.10+
+    background: -ms-linear-gradient(@start,  @start-color, @end-color); // IE10+
+    background: linear-gradient(@start,  @start-color, @end-color);
+}
+
+._vertical_lin_grad (@color1, @color2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 0%, @color2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @color1), color-stop(100%, @color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 0%, @color2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 0%, @color2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 0%, @color2 100%); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 0%, @color2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0); /* IE6-9 */
+}
+._box_shadow (@arguments) {
+    -webkit-box-shadow: @arguments; // Safari, Chrome
+    -moz-box-shadow: @arguments; // Firefox
+    box-shadow: @arguments; // CSS3
+}
+
+._border_radius (@arguments) {
+    //радиус скругления (1-4 параметров)
+    border-radius: @arguments; // CSS3
+    -webkit-border-radius: @arguments; // Safari, Chrome
+    -moz-border-radius: @arguments; // Firefox
+    -khtml-border-radius: @arguments; // KHTML
+}
+
+._background_size (@arguments) {
+  -moz-background-size: @arguments; /* Firefox 3.6+ */
+  -webkit-background-size: @arguments; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: @arguments; /* Opera 9.6+ */
+  background-size: @arguments; /* Современные браузеры */
+}
+

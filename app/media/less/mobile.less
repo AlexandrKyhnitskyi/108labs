@@ -1,0 +1,858 @@
+@import "service/templates.less"; // Import prepared less-templates
+
+//=========================Cтилі для мобільних приладів======================\\
+
+//======   max-width: 1170px
+@media screen and (max-width: 1170px) {
+
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 23px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 30px;
+    }
+  }
+}
+
+//======   max-width: 1090px
+@media screen and (max-width: 1090px) {
+
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 22px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 30px;
+    }
+  }
+}
+
+//======   max-width: 1060px
+@media screen and (max-width: 1060px) {
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 16px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 30px;
+    }
+  }
+}
+
+//======   max-width: 970px
+@media screen and (max-width: 970px) {
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 15px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 30px;
+    }
+  }
+
+  .ls-copy {
+    text-align: center;
+  }
+}
+
+//======   max-width: 950px
+@media screen and (max-width: 950px) {
+
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 8px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 24px;
+    }
+  }
+}
+
+//======   max-width: 850px
+@media screen and (max-width: 850px) {
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 6px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 19px;
+    }
+  }
+}
+
+//======   max-width: 800px
+@media screen and (max-width: 800px) {
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 5px 4px;
+      }
+    }
+  }
+
+  .ls-nav-no-index {
+
+    .navbar-default .navbar-nav>li>a {
+      padding: 15px 17px;
+    }
+  }
+}
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .footer {
+
+    .footer-nav {
+
+      .navbar-default .navbar-nav>li>a {
+        padding: 15px 4px;
+        font-size: 17px;
+      }
+    }
+
+    .ls-copy {
+      width: 100%;
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .footer-contacts {
+    text-align: center;
+  }
+
+  .ls-pagination {
+
+    .parent{
+
+      .page-nav {
+
+        li {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}
+
+//==============================Головна сторінка=============================\\
+
+//======   max-width: 1170px
+@media screen and (max-width: 1170px) {
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 15px 30px;
+  }
+
+  .ls-index {
+
+    div {
+
+      a {
+        &.ls_main-link {
+          min-height: 230px;
+        }
+      }
+    }
+  }
+
+}
+
+//======   max-width: 1060px
+@media screen and (max-width: 1060px) {
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 15px 23px;
+  }
+}
+
+//======   max-width: 970px
+@media screen and (max-width: 970px) {
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 15px 20px;
+  }
+}
+
+//======   max-width: 950px
+@media screen and (max-width: 950px) {
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 15px 15px;
+  }
+}
+
+//======   max-width: 850px
+@media screen and (max-width: 850px) {
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 15px 10px;
+  }
+
+  .ls-index {
+
+    div {
+
+      a {
+        font-size: 16px;
+        background-size: 35%;
+      }
+    }
+  }
+}
+
+
+//======   max-width: 800px
+@media screen and (max-width: 800px) {
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 15px 8px;
+  }
+}
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .ls-bg-m {
+    text-align: center;
+    background: #ddd;
+    opacity: 0.5;
+
+    span.fa.fa-envelope-o {
+      margin: 0 4px;
+    }
+
+    span.fa.fa-mobile {
+      margin: 7px 4px;
+    }
+
+    a {
+      float: none;
+      display: inline-block;
+      margin-bottom: 10px;
+      vertical-align: middle;
+      line-height: 45px;
+      background: none;
+      opacity: 1;
+    }
+  }
+
+  .navbar-default .navbar-toggle {
+    float: left;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    .icon-bar {
+      background-color: #fff;
+
+      &:nth-child(3){
+        margin: 10px 0;
+      }
+    }
+
+    &:hover, &:focus {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    border: none;
+    ._box_shadow(none);
+  }
+
+  .nav {
+    margin: 0;
+
+    li {
+      width: 100%;
+      text-align: center;
+
+      &:last-child {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .ls_logo{
+    margin: -30px auto 0;
+  }
+
+  .ls-index {
+    padding: 0;
+
+    div {
+      padding: 0;
+
+      a {
+        font-size: 16px;
+        background-size: 35%;
+
+        &.ls_main-link {
+          height: auto;
+          min-height: 180px;
+          padding: 60% 3px 20px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .footer .footer-contacts{
+    a {
+      float: none;
+    }
+  }
+}
+
+//======   max-width: 600px
+@media screen and (max-width: 600px) {
+
+  .ls-index {
+
+    h1 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+}
+
+//======   max-width: 530px
+@media screen and (max-width: 530px) {
+
+  .ls-index {
+
+    h1 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    div {
+
+      a {
+        font-size: 15px;
+
+        &.ls_main-link {
+          min-height: 140px;
+          max-height: 140px;
+        }
+      }
+    }
+  }
+}
+
+//======   max-width: 510px
+@media screen and (max-width: 510px) {
+
+  .ls-index {
+
+    div {
+
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+//======   max-width: 420px
+@media screen and (max-width: 420px) {
+
+  .ls-index {
+
+    div {
+
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+//======   max-width: 400px
+@media screen and (max-width: 400px) {
+
+  .ls_top-contacts {
+
+    i.fa.fa-envelope-o {
+      margin: 0 5px;
+      font-size: 15px;
+    }
+
+    i.fa.fa-mobile {
+      margin: 2px 5px;
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 15px;
+    }
+  }
+
+  .ls-index {
+
+    h1 {
+      font-size: 20px;
+    }
+
+    div {
+
+      a {
+        font-size: 9px;
+      }
+    }
+  }
+}
+
+//======Max-width: 336px
+@media screen and (max-width: 336px) {
+  .ls-index {
+
+    h1 {
+      font-size: 18px;
+    }
+
+    div {
+
+      a {
+        font-size: 9px;
+      }
+    }
+  }
+
+  .ls_top-contacts {
+    height: 20px;
+    line-height: 35px;
+  }
+}
+//==============================Новини=============================\\
+
+//======   max-width: 1060px
+@media screen and (max-width: 1060px) {
+
+  .article-mini {
+
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+//======   max-width: 992px
+@media screen and (max-width: 992px) {
+
+  .article-mini i.fa.fa-calendar {
+    font-size: 11px;
+    text-align: center;
+  }
+}
+
+//======   max-width: 820px
+@media screen and (max-width: 850px) {
+
+  .article-mini {
+
+    a {
+      font-size: 14px;
+    }
+  }
+}
+
+//======   max-width: 770px
+@media screen and (max-width: 770px) {
+
+  .article-mini {
+
+    a {
+      font-size: 13px;
+    }
+  }
+}
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .article-mini {
+    margin-bottom: 40px;
+
+    a {
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+
+  .article-mini i.fa.fa-calendar {
+    text-align: right;
+  }
+
+  .ls-pagination {
+    margin: 0 0 40px 0;
+  }
+}
+
+//======   max-width: 400px
+@media screen and (max-width: 400px) {
+
+  .article-mini {
+
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+//======Max-width: 336px
+@media screen and (max-width: 336px) {
+
+  .article-mini {
+
+    a {
+      font-size: 14px;
+    }
+  }
+  .article-mini i.fa.fa-calendar {
+    font-size: 11px;
+  }
+}
+
+//==============================Новини Перегляд=============================\\
+
+//======   max-width: 1210px
+@media screen and (max-width: 1210px) {
+
+  .article {
+    padding: 0 15px;
+  }
+
+  .last-news {
+
+    .article-mini i.fa.fa-calendar {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+//======   max-width: 992px
+@media screen and (max-width: 992px) {
+
+  .over-img {
+    height: 200px;
+  }
+}
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .over-img {
+    height: 150px;
+  }
+
+  .last-news {
+
+    .article-mini {
+      margin: 20px 4% 50px;
+
+      &:last-child {
+        margin: 20px 4% 35px;
+      }
+    }
+  }
+
+  .article {
+
+    h1 {
+      margin: 10px 0;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 35px;
+    }
+  }
+}
+
+//==============================Сервіс=============================\\
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .ls-service {
+
+    .last-btn {
+      margin-top: 35px;
+    }
+  }
+}
+
+//==============================Про нас=============================\\
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .ls-about-title {
+
+    h1 {
+      width: 50%;
+    }
+  }
+
+  .ls-about-user {
+
+    img {
+      margin-top: 50px;
+    }
+  }
+}
+
+//==============================Контакти=============================\\
+
+//======   max-width: 1000px
+@media screen and (max-width: 1000px) {
+
+  .con-form {
+    text-align: center;
+
+    button {
+
+      &.ls-submit {
+        width: 70%;
+      }
+    }
+  }
+}
+
+//======   max-width: 900px
+@media screen and (max-width: 900px) {
+
+  .qr {
+    padding-left: 0;
+  }
+}
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .con-form {
+    margin-top: -30px;
+    text-align: center;
+
+    div {
+      padding: 0;
+    }
+
+    button {
+
+      &.ls-submit {
+        width: 100%;
+      }
+    }
+  }
+
+  .qr {
+    padding: 0 15px;
+    text-align: center;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .map-h3 {
+      text-align: center;
+  }
+
+  .map {
+    margin-bottom: 20px;
+  }
+
+  .ls-contacts {
+
+    h3 {
+      text-align: center;
+    }
+
+    div {
+      float: none;
+      margin: 0 auto 25px;
+    }
+  }
+}
+
+//==============================Портфоліо=============================\\
+
+//======   max-width: 1000px
+@media screen and (max-width: 1000px) {
+
+  .folio-nav {
+
+    ul {
+
+      li {
+        margin: 10px 0;
+
+        a {
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+
+//======   max-width: 850px
+@media screen and (max-width: 850px) {
+
+  .folio-nav {
+
+    ul li a{
+     padding: 15px 13px;
+    }
+  }
+}
+
+//======   max-width: 775px
+@media screen and (max-width: 775px) {
+
+  .folio-nav {
+
+    ul li a{
+      padding: 15px 12px;
+    }
+  }
+}
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .folio-nav {
+
+    ul {
+      li {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .ls-folio {
+
+    .ls-folio-img {
+
+      a {
+        max-width: 270px;
+        padding: 100px 0;
+      }
+
+      img {
+        max-width: 270px;
+        min-width: 0;
+        vertical-align: top;
+      }
+
+    }
+  }
+}
+
+//==============================Портфоліо відкрите=============================\\
+
+//======   max-width: 767px
+@media screen and (max-width: 767px) {
+
+  .slider {
+
+    .parent {
+
+      ul {
+
+        li {
+          display: block;
+          width: 300px;
+          margin:20px auto;
+
+          &:first-child,&:last-child {
+            width: 100%;
+            height: 100px;
+            margin: 10px 0;
+            background-size: auto;
+          }
+
+          a {
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//======   max-width: 320px
+@media screen and (max-width: 320px) {
+
+  .slider {
+
+    .parent {
+
+      ul {
+
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

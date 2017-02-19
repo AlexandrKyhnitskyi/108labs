@@ -1,0 +1,49 @@
+@import "service/templates.less"; // Import prepared less-templates
+
+// Стилі сторінки "Про нас"
+._about_header{
+  display: block;
+  margin: 30px 0 0;
+  color: #333;
+  text-align: left;
+  line-height: 30px;
+  border-bottom: 2px solid #333;
+}
+
+.ls-about-title {
+
+  .ls-about-content {
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  h1 {
+    width: 33%;
+    font-size: 25px;
+    text-transform: uppercase;
+    ._about_header;
+  }
+}
+.ls-about-user {
+  text-align: center;
+
+  img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .round {
+    border: 3px solid #5ea1fe;
+    ._border_radius(100%);
+  }
+
+  .ls-about-content {
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+  }
+
+}

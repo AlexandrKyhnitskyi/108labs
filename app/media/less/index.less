@@ -1,0 +1,73 @@
+@import "service/templates.less"; // Import prepared less-templates
+
+// Стилі головної сторінки
+
+h1 {
+  margin: 40px 0 0 0;
+  color: #FFF;
+  text-align: center;
+  line-height: 65px;
+
+  a {
+    color: #FFF;
+    border-bottom: 3px #006CFF solid;
+
+    &:hover {
+      color: #FFF;
+      text-decoration: none;
+      border-bottom: none 0;
+    }
+  }
+}
+
+a.ls_main-more-butt {
+  display: block;
+  width: 210px;
+  height: 46px;
+  margin: 30px auto 80px auto;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 46px;
+  background: #006CFF;
+  ._border_radius(5px);
+
+  &:hover {
+    text-decoration: none;
+    background: lighten(#006CFF, 10%);
+    ._box_shadow(0 0 15px rgba(0, 0, 0, 0.5) inset);
+  }
+}
+
+a.ls_main-link {
+  display: block;
+  width: 100%;
+  height: 215px;
+  padding: 120px 5px 0 5px;
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+
+  &:hover {
+    color: #FFF;
+    background-color: rgba(13, 13, 13, 0.7);
+  }
+}
+
+.link1 {
+  background: url("/img/main-link1.png") center 20px no-repeat;
+}
+
+.link2 {
+  background: url("/img/main-link2.png") center 20px no-repeat;
+}
+
+.link3 {
+  background: url("/img/main-link3.png") center 20px no-repeat;
+}
+
+.link4 {
+  background: url("/img/main-link4.png") center 20px no-repeat;
+}
